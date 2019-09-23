@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.body_container {
+    font-family: Georgia, serif;
+}
+
+.logo_image {
+    display: flex;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.navigation_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8DAEF;
+    color: #515A5A;
+}
+
+.header_container {
+    padding: 10px;
+}
+
+.navigation_element {
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #205c69;
+}
+
+.link:hover {
+    opacity: 0.7;
+}
+
+.image_container {
+    background-image: url(ricardo-gomez-angel-AZZKpCpG338-unsplash.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+
+
+.footer_container {
+    background-color: #E8DAEF;
+    color: #515A5A;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    height: 165px;
+    font-size: 20px;
+}
+
+.some_icon {
+    width: 30px;
+  float: left;
+    margin-right: 30px;
+
+}
+
+.contact_headline {
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.some_image {
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+.contactus_section {
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.page_headline {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+@media only screen and (min-width: 470px) {
+    .footer_container {
+        flex-direction: row;
+    }
+
+    .logo_image {
+        display: inline;
+    }
+
+    .navigation_container {
+        justify-content: space-between;
+    }
+
+
+
