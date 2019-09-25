@@ -5,96 +5,80 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-
 }
 
-
-.body_container {
-    font-family: Georgia, serif;
-
+body {
+    font-family: serif;
 }
 
-.logo_image {
+.header-container {
     display: flex;
-    width: 120px;
-    margin-left: 50px;
-}
-
-.navigation_container {
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
     align-items: center;
-    color: #515A5A;
+}
+
+.navigation-container {
+    margin-right: 80px;
+    display: flex;
+}
+
+.navigation-element {
+    font-size: 28px;
+    margin-right: 20px;
+    color: black;
 }
 
 
-.header_container {
-    padding: 15px;
-}
 
-.navigation_element {
-    margin-left: 20px;
-    font-size: 25px;
-
-}
-
-.link {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #205c69;
-}
-
-.link:hover {
+.navigation-element:hover {
     opacity: 0.7;
 }
 
-
-.page_image {
-   width: 100%;
+.logo-container {
+    margin-left: 100px;
 }
+
+.logo-image {
+    width: 85px;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+
 
 .event_section {
     position: relative;
-    max-height: 640px;
+    max-height: 500px;
     width: 100%;
     padding: 10px 5px 5px 10px;
-    overflow: hidden;
+    display:flex;
+    flex-direction:row-reverse;
 }
 
-.event_container {
-    position: absolute;
-    background-color: white;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-    z-index: 1;
-    width: 100%;
-    border-bottom-color: white;
+.page_image {
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 .event_section:hover {
     opacity: 0.3;
 }
 
-.event_text {
-    text-align:right
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 40%;
-    font-size: 72px;
-    background-color: white;
-    opacity: 0.7;
 
-}
 
 .details_container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-around;
     flex-wrap: wrap;
     margin: 35px 0 35px 0;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .content_container {
@@ -102,8 +86,17 @@
     margin: 16px 16px 16px 16px;
     background-color: white;
     width: 370px;
+    text-justify: auto;
 }
 
+.icon_text {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+
+}
 
 
 .event_image {
